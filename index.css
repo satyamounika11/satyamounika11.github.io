@@ -1,0 +1,172 @@
+:root {
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    background: #FBF6D9;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+}
+.card .my-image{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    border-radius: 50%;
+}
+.card .heading {
+        font-family: 'Poiret One', cursive;
+        font-size: 3rem;
+        text-align: center;
+        text-shadow: 10px 10px 10px #aaa;
+        margin-top: 1vh;
+}
+
+@media screen and (max-width: 725px) {
+     .card {
+        flex-direction: column;
+    }
+     .card .image {
+        order: -1;
+    }
+     .card .my-image {
+        width: 20vw;
+        height: 20vh;
+    }
+}
+
+.row .about {
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0vh 10vh;
+    width: 10rem;
+    text-shadow: 10px 10px 10px #aaa;
+}
+.about:hover{
+    width: 300px;
+}
+ .row .paragraph {
+    font-family: 'Cardo',serif;
+    font-size: 1.2rem;
+    margin: 0vh 10vh;
+  }
+  .row .skill {
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    text-shadow: 10px 10px 10px #aaa;
+}
+.row .skill-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transition: width 2s ease-out 1s;
+}
+
+.row skill-image:hover {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  } 
+@media screen and (max-width: 725px) {
+     .row {
+        flex-wrap: wrap;
+    }
+     .row .skillset {
+        order: 1;
+    }
+     .row .skill-image {
+        width: 20vw;
+        height: 20vh;
+    }
+}
+.professional {
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    text-shadow: 10px 10px 10px #aaa;
+}
+.row .company {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+@media screen and (max-width: 725px) {
+     .row {
+        flex-wrap: wrap;
+    }
+     .row .company {
+        order: 1;
+    }
+     .row .company {
+        width: 15vw;
+        height: 15vh;
+    }
+}
+.row .col-6 {
+    font-family: 'Cardo',serif;
+    font-size: 1.2rem;
+    margin: 2vh;
+    line-height: 1.5rem;
+    background-color: #FFF0F5;
+    text-align: center;
+}
+.row .firstcompany {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+@media screen and (max-width: 725px) {
+     .row {
+        flex-wrap: wrap;
+    }
+     .row .firstcompany {
+        order: 1;
+    }
+     .row .firstcompany {
+        width: 15vw;
+        height: 15vh;
+    }
+}
+.project {
+   font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    text-shadow: 10px 10px 10px #aaa;     
+}
+.matter {
+    font-family: 'Cardo',serif;
+    font-size: 1.2rem;
+    margin: 2vh;
+}
+ .contact {
+    font-family: 'Cardo',serif;
+    font-size: 1.2rem;
+    margin: 2vh;
+}
+.finally{
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    text-shadow: 10px 10px 10px #aaa;   
+}
